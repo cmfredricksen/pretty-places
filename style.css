@@ -75,6 +75,9 @@ a {
   background-color: plum;
   display: flex;
   flex-direction: column;
+  /* margin: 2rem; */
+  /* border: 2px solid yellow; */
+  width: 100vw;
 }
 
 img {
@@ -87,11 +90,13 @@ img {
 #welcome {
   background-color: lightgreen;
   padding: 1rem;
+  margin: 0 2rem 3.5rem;
+  /* border: 2px solid deeppink; */
 }
 
 .text-box {
   padding-bottom: 2rem;
-  margin: 0 2rem 0;
+  /* border: 2px solid blue; */
 }
 
 /* content page includes shop containing painting cards and footer */
@@ -99,7 +104,14 @@ img {
 .container {
   max-width: 95vw;
   margin: auto;
+  border: 2px solid green;
   justify-content: center;
+  margin: 2rem 0;
+}
+
+#shop {
+  margin: 2rem;
+  border: 2pt solid orange;
 }
 
 .painting-card {
@@ -107,5 +119,5 @@ img {
   height: 60vh;
   background-color: palegoldenrod;
   margin: 2rem 0.5rem;
-  display: flex;
+  /* display: flex; */
 }
