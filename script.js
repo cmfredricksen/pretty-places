@@ -1,3 +1,3 @@
 "use strict";
 
-const paintingCards = document.querySelector(".painting-card");
+const paintingCards = document.querySelectorAll(".painting-card");
