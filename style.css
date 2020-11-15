@@ -69,6 +69,12 @@ img {
   object-fit: cover;
 }
 
+@media screen and (min-width: 480px) {
+  img {
+    object-fit: contain;
+  }
+}
+
 h2 {
   margin: 1rem 0.2rem;
   font-weight: 500;
