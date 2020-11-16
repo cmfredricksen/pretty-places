@@ -19,7 +19,7 @@ fonts {
 
 .page-container {
   margin: auto;
-  background: linear-gradient(90deg, crimson, indigo);
+  background: linear-gradient(to bottom right, crimson, indigo);
   max-width: 1000px;
 }
 
@@ -47,7 +47,7 @@ h1 {
 
 nav {
   margin: auto;
-  background: linear-gradient(90deg, crimson, indigo);
+  background: linear-gradient(indigo, crimson);
   justify-content: space-around;
   display: flex;
   padding: 1.5rem;
@@ -119,7 +119,7 @@ p {
 }
 
 .for-sale {
-  background: linear-gradient(90deg, crimson, indigo);
+  background: linear-gradient(to bottom right, crimson, indigo);
   padding: 3rem 0;
   border-top: 1px solid goldenrod;
   border-bottom: 1px solid goldenrod;
@@ -149,7 +149,7 @@ p {
   display: flex;
   justify-content: center;
   /* margin: 0.5rem 0; */
-  background: linear-gradient(90deg, crimson, indigo);
+  background: linear-gradient(crimson, indigo);
   color: goldenrod;
   margin-top: 2rem;
   padding: 0.5rem 0;
