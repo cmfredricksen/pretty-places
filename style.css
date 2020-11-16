@@ -8,7 +8,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(45deg, crimson, black);
+  background: linear-gradient(90deg, crimson, indigo);
 }
 
 fonts {
@@ -19,7 +19,7 @@ fonts {
 
 .page-container {
   margin: auto;
-  background-color: lavender;
+  background: linear-gradient(90deg, crimson, indigo);
   max-width: 1000px;
 }
 
@@ -33,11 +33,12 @@ header {
 
 h1 {
   font-family: "Grenze Gotisch", cursive;
-  color: darkgoldenrod;
+  color: goldenrod;
+  text-shadow: 2px 2px 3px black;
 }
 
 .subtitle {
-  color: crimson;
+  color: white;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -46,7 +47,7 @@ h1 {
 
 nav {
   margin: auto;
-  background-color: lavenderblush;
+  background: linear-gradient(90deg, crimson, indigo);
   justify-content: space-around;
   display: flex;
   padding: 1.5rem;
@@ -64,7 +65,9 @@ a:hover {
   font-size: small;
   border: 1px solid crimson;
   padding: 0.5rem;
-  background-color: lavender;
+  background-color: goldenrod;
+  color: crimson;
+  font-weight: 600;
 }
 
 /* image and welcome text */
@@ -84,6 +87,7 @@ h2 {
 }
 
 .text-box-heading {
+  color: goldenrod;
   margin: 1rem;
 }
 
@@ -93,6 +97,7 @@ p {
 
 .text-box {
   margin: 0 2rem 1rem;
+  color: white;
 }
 
 /* Shop Settings */
@@ -100,38 +105,52 @@ p {
 .shop-header {
   text-align: center;
   font-size: 2rem;
-  background-color: lavenderblush;
+  background: linear-gradient(45deg, crimson, indigo);
+  color: goldenrod;
   padding: 0.5rem;
   border-top: 4px solid goldenrod;
   border-bottom: 4px solid goldenrod;
+  text-shadow: none;
 }
 
 .shop-container {
   /* padding: 1rem 0; */
-  background-color: palegoldenrod;
+  background: linear-gradient(90deg, crimson, indigo);
 }
 
 .for-sale {
-  background-color: lightgoldenrodyellow;
-  padding: 1rem 0;
+  background: linear-gradient(90deg, crimson, indigo);
+  padding: 3rem 0;
   border-top: 1px solid goldenrod;
   border-bottom: 1px solid goldenrod;
+  display: flex;
+  flex-direction: column;
+}
+
+.shop-image {
+  max-width: 90%;
+  display: flex;
+  align-self: center;
+  border: 2px solid indigo;
 }
 
 .item-heading {
-  margin-left: 1rem;
-  margin-bottom: 0.25rem;
+  max-width: 90%;
+  color: goldenrod;
+  margin: 0.5rem 2rem 0.25rem;
 }
 
 .item-text {
-  margin-left: 2rem;
+  margin-left: 3rem;
+  color: white;
 }
 
 .top-buttons {
   display: flex;
   justify-content: center;
   /* margin: 0.5rem 0; */
-  background-color: palegoldenrod;
+  background: linear-gradient(90deg, crimson, indigo);
+  color: goldenrod;
   padding: 0.5rem 0;
 }
 
