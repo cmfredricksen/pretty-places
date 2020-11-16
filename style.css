@@ -6,6 +6,8 @@
 
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  align-items: center;
+  max-width: 1000px;
 }
 
 fonts {
@@ -16,6 +18,7 @@ fonts {
 
 .page-container {
   background-color: lavender;
+  max-width: 1000px;
 }
 
 /* Header Title Nav */
@@ -99,7 +102,8 @@ p {
 }
 
 .shop-container {
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
+  background-color: palegoldenrod;
 }
 
 .for-sale {
@@ -121,9 +125,15 @@ p {
 .top-buttons {
   display: flex;
   justify-content: center;
-  margin: 0.5rem 0;
+  /* margin: 0.5rem 0; */
+  background-color: palegoldenrod;
+  padding: 0.5rem 0;
 }
 
+.shop-image {
+  max-width: 100vw;
+  object-fit: contain;
+}
 @media screen and (min-width: 480px) {
   img {
     object-fit: contain;
