@@ -58,7 +58,7 @@ a {
 }
 
 a:hover {
-  color: goldenrod;
+  color: white;
 }
 
 .head-links {
@@ -88,7 +88,9 @@ h2 {
 
 .text-box-heading {
   color: goldenrod;
-  margin: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 0.25rem;
 }
 
 p {
@@ -96,8 +98,10 @@ p {
 }
 
 .text-box {
-  margin: 0 2rem 1rem;
+  margin: 0 1rem 1rem;
   color: white;
+  text-indent: 1.5rem;
+  font-style: italic;
 }
 
 /* Shop Settings */
@@ -171,6 +175,7 @@ footer {
   .introduction {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 2rem;
   }
 
   img {
