@@ -154,6 +154,13 @@ p {
   padding: 0.5rem 0;
 }
 
+footer {
+  padding: 2rem;
+  text-align: center;
+  color: gold;
+  border: 2px dotted goldenrod;
+}
+
 @media screen and (min-width: 580px) {
   .page-container {
     border-right: 4px solid goldenrod;
