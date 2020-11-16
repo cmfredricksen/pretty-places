@@ -59,6 +59,8 @@ a:hover {
   font-size: small;
 }
 
+/* image and welcome text */
+
 .introduction {
   display: flex;
   flex-direction: column;
@@ -70,13 +72,22 @@ img {
 }
 
 h2 {
-  margin: 1rem 0.2rem;
   font-weight: 500;
 }
 
-p {
-  margin: 0 0.5rem 1rem;
+.text-box-heading {
+  margin: 1rem;
 }
+
+p {
+  margin: 0;
+}
+
+.text-box {
+  margin: 0 2rem 1rem;
+}
+
+/* Shop Settings */
 
 .shop-header {
   text-align: center;
@@ -89,6 +100,28 @@ p {
 
 .shop-container {
   padding: 1rem 0;
+}
+
+.for-sale {
+  background-color: lightgoldenrodyellow;
+  padding: 1rem 0;
+  border-top: 1px solid goldenrod;
+  border-bottom: 1px solid goldenrod;
+}
+
+.item-heading {
+  margin-left: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.item-text {
+  margin-left: 2rem;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0;
 }
 
 @media screen and (min-width: 480px) {
