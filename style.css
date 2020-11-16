@@ -151,6 +151,7 @@ p {
   /* margin: 0.5rem 0; */
   background: linear-gradient(90deg, crimson, indigo);
   color: goldenrod;
+  margin-top: 2rem;
   padding: 0.5rem 0;
 }
 
@@ -165,5 +166,23 @@ footer {
   .page-container {
     border-right: 4px solid goldenrod;
     border-left: 4px solid goldenrod;
+  }
+
+  .introduction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  img {
+    width: 90%;
+  }
+
+  .shop-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .top-buttons {
+    display: none;
   }
 }
