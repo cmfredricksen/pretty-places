@@ -7,7 +7,7 @@
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   align-items: center;
-  max-width: 1000px;
+  justify-content: center;
 }
 
 fonts {
@@ -17,6 +17,7 @@ fonts {
 }
 
 .page-container {
+  margin: auto;
   background-color: lavender;
   max-width: 1000px;
 }
@@ -64,14 +65,10 @@ a:hover {
 
 /* image and welcome text */
 
-.introduction {
-  display: flex;
-  flex-direction: column;
-}
-
 img {
-  max-width: 100vw;
-  object-fit: cover;
+  object-fit: contain;
+  /* border: 3px solid tomato; */
+  max-width: 100%;
 }
 
 h2 {
@@ -130,12 +127,8 @@ p {
   padding: 0.5rem 0;
 }
 
-.shop-image {
-  max-width: 100vw;
-  object-fit: contain;
-}
-@media screen and (min-width: 480px) {
-  img {
-    object-fit: contain;
-  }
-}
+/* @media screen and (min-width: 480px) { */
+/* img { */
+/* object-fit: contain; */
+/* } */
+/* } */
